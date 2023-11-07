@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.background-image {
+  background-image: url("imagen/fondopag.png"); /* Ruta a la imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+  .login-container {
+    background-color: #ffffff;
+    background-image: url("imagen/fondo.png"); /* Ruta a la imagen de fondo */
+    background-size: center;
+    background-position: center;
+    width: 500px;
+    margin: 100px 160px;
+    height: 330px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Alinea el contenido a la izquierda */
+  
+    /* Agrega una fuente y ajusta el tamaño de la letra */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Alinea los elementos de texto a la izquierda */
+  h2,
+  label,
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    text-align: center;
+  }
+  
+  /* Reduce el margen inferior de los elementos de entrada */
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    margin-bottom: 5px;
+  }
+  
+
+h2 {
+  color: #333;
+}
+
+/* Resto del CSS sigue igual */
